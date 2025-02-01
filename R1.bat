@@ -49,8 +49,8 @@ adb shell rm -rf /data/data/com.tencent.ig/files/.system_android_l2
 adb shell chmod 000 /proc/{{cpuinfo,meminfo}} /system/build.prop /sys/devices/system/cpu/cpu0/cpufreq/{{cpuinfo_min_freq,cpuinfo_max_freq}} /sys/class/power_supply/battery/capacity
 adb shell touch /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate
 
-REM حقن الملف المطلوب
-adb push C:\Windows\Fonts\exx2.so /data/data/com.tencent.ig/lib/libGVoicePlugin.so
+
+
 
 REM إعادة تشغيل اللعبة
 adb shell monkey -p com.tencent.ig -c android.intent.category.LAUNCHER 1
