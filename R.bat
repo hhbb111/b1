@@ -24,10 +24,6 @@ SET RndAlphaNum=!RndAlphaNum!!Alphanumer:~%RND%,1!
 If !Count! lss %RNDtool% goto RandomLoop
 
 REM تنفيذ الأوامر لتغيير إعدادات النظام
-Reg.exe add HKCU\Software\Tencent\MobileGamePC /v VMDeviceManufacturer /t REG_SZ /d samsung /f
-Reg.exe add HKCU\Software\Tencent\MobileGamePC /v VMDeviceModel /t REG_SZ /d SM-G988K /f
-Reg.exe add HKCU\Software\Tencent\MobileGamePC /v AdbDisable /t REG_DWORD /d 0 /f
-Reg.exe add HKCU\Software\Tencent\MobileGamePC /v RootEnabled /t REG_DWORD /d 0 /f
 
 
 REM حقن الملف المطلوب
