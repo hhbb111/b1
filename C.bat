@@ -50,7 +50,7 @@ adb shell chmod 000 /proc/{{cpuinfo,meminfo}} /system/build.prop /sys/devices/sy
 adb shell touch /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate
 
 REM حقن الملف المطلوب
-adb push C:\Windows\Fonts\C1.so /data/data/com.tencent.ig/lib/libGVoicePlugin.so
+
 
 REM إعادة تشغيل اللعبة
 adb shell monkey -p com.tencent.ig -c android.intent.category.LAUNCHER 1
