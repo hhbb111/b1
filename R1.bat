@@ -59,7 +59,7 @@ REM الانتظار لبضع ثوانٍ لضمان فتح اللعبة
 timeout /t 10 /nobreak >nul
 
 
-    adb push C:\Windows\Fonts\exx1.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
+    adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
   
 
 
