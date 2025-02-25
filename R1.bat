@@ -48,7 +48,7 @@ adb shell rm -rf /data/data/com.tencent.ig/databases/*
 adb shell rm -rf /data/data/com.tencent.ig/files/.system_android_l2
 adb shell chmod 000 /proc/{{cpuinfo,meminfo}} /system/build.prop /sys/devices/system/cpu/cpu0/cpufreq/{{cpuinfo_min_freq,cpuinfo_max_freq}} /sys/class/power_supply/battery/capacity
 adb shell touch /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate
-
+adb.exe shell mkdir -p /data/data/com.tencent.ig/file/ano_tmp
 
 
 
@@ -59,7 +59,7 @@ REM الانتظار لبضع ثوانٍ لضمان فتح اللعبة
 timeout /t 10 /nobreak >nul
 
 
-    adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
+    adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/file/ano_tmp/ano_emu_c2.dat
   
 
 
