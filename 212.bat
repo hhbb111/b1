@@ -37,9 +37,7 @@ adb  shell rm -rf /data/data/com.tencent.ig/cache
 adb  shell rm -rf /data/data/com.tencent.ig/code_cache 
 adb  shell rm -rf /data/data/com.tencent.ig/files/* 
 adb  shell rm -rf /data/data/com.tencent.ig/no_backup 
-adb  shell rm -rf /sdcard/Android/.system_android_12 
-adb  shell rm -rf /data/data/com.tencent.ig/files/.system_android_l2 
-adb  shell rm -rf /sdcard/Android/data/com.tencent.ig/files/.system_android_l2 
+
 adb  shell rm -rf /data/share1/hardware_info.txt 
 adb  shell rm -rf /data/share1/pictures 
 adb  shell rm -rf touch /etc/pc.log 
