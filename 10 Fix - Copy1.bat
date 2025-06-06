@@ -28,5 +28,5 @@ nbtstat -r
 nbtstat -rr
 rundll32.exe cmdext.dll,MessageBeepStub
 rundll32 user32.dll,MessageBeep
-TIMEOUT 500
+TIMEOUT 100
 goto:loop
